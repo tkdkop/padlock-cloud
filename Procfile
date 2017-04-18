@@ -1,1 +1,1 @@
-web: padlock-cloud --email-server $EMAIL_SERVER --email-port $EMAIL_PORT --email-user $EMAIL_USER --email-password $EMAIL_PASSWORD  runserver --base-url $BASE_URL --assets-path assets --port $PORT
+web: padlock-cloud  --log-file info.log --err-file err.log --email-server $EMAIL_SERVER --email-port $EMAIL_PORT --email-user $EMAIL_USER --email-password $EMAIL_PASSWORD  runserver --base-url $BASE_URL --assets-path assets --port $PORT
